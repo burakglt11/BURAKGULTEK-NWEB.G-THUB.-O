@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 100px 0;
+    background: #222;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+.section_title h2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+/* Header */
+header {
+    background: #222;
+    border-bottom: 5px solid chocolate;
+    position: fixed;
+    width: 100%;
+    z-index: 10; /* Z-index değeri arttırıldı */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav_links li a:hover {
+    background-color: chocolate;
+}
+
+.logo h2 a {
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.section_title h2 {
+    color: chocolate;
+}
+
+.section_title h2:hover {
+    background-color: aliceblue;
+}
+
+/* ANASAYFA */
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: aliceblue;
+}
+
+.child_anasayfa {
+    flex-basis: 45%;
+}
+
+.child_anasayfa h1 {
+    font-size: 80px;
+    color: chocolate;
+    font-family: sans-serif;
+}
+
+/* HAkkımda */
+.inner_testi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+/------projeler------/
+
+.inner_testi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+/------ietişim------/
+
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_contact{
+    flex-basis: 45%;
+}
+
+.child_contact form{
+    padding: 50px 40px;
+    background: chocolate;
+    border-radius: 5px;
+} 
+
+.child_contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in-out;
+}
+.child_contact form input:last-child:hover{
+    background: transparent;
+    color: aliceblue;
+}
